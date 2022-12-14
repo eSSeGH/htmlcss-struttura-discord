@@ -20,7 +20,9 @@ img {
 .container1 {
     max-width: 800px;
 }
-
+.container2 {
+    max-width: 600px;
+}
 
 /* row */
 
@@ -52,4 +54,17 @@ img {
 
 .row-cols-3 .col2 {
     flex-basis: calc(100%*3/5)
+}
+
+/* section page-desc */
+
+.debug .page-desc {
+    background-color: blue;
+    padding: 20px 0;
+}
+
+.debug .page-desc-block {
+    min-height: 300px;
+    background-color:fuchsia;
+    border: 1px dashed black;
 }
