@@ -8,6 +8,16 @@ img {
     max-width: 100%;
 }
 
+/* all column and block borders */
+
+.debug .row [class^="col"] {
+    border: 3px dashed black;
+}
+
+/* .debug .div [class$="block"] {
+    border: 3px dashed black;
+} */
+
 /* header */
 
 .debug .header-nav {
@@ -35,10 +45,6 @@ img {
     padding: 20px 0;
 }
 
-.header-nav .row {
-    justify-content: space-between;
-}
-
 .debug .row-cols-5 {
     padding-top: 10px;
 }
@@ -58,8 +64,7 @@ img {
 
 .debug .row-cols-3 [class^="col"] {
     min-height: 40px;
-    background-color: orange;
-    border: 1px dashed black;
+    background-color: orange; 
     text-align: center;
     line-height: 40px;
 }
@@ -70,7 +75,6 @@ img {
 
 .debug .row-cols-2 [class^="col"] {
     min-height: 350px;
-    border: 1px dashed black;
 }
 
 .row-cols-2 .col1 {
@@ -89,20 +93,19 @@ img {
 
 .debug .row-cols-5 [class="col-a"] {
     min-height: 300px;
-    border: 1px dashed black;
     background-color: hotpink;
     flex-basis: calc(100%*2/6)
 }
 
 .debug .row-cols-5 [class="col-b"] {
     min-height: 300px;
-    border: 1px dashed white;
+    border: 3px dashed white;
     background-color: aqua;
     flex-basis: calc(100%*1/6)
 }
 
 
-/* section page-desc */
+/* section page-desc*/
 
 .debug .page-desc {
     background-color: blue;
@@ -112,7 +115,7 @@ img {
 .debug .page-desc-block {
     min-height: 300px;
     background-color:fuchsia;
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 /* section utility */
@@ -147,7 +150,7 @@ img {
 .debug .technology-block {
     min-height: 450px;
     background-color:green;
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 /* section links*/
