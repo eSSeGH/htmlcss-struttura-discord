@@ -4,3 +4,52 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+/* header */
+
+.debug .header-nav {
+    min-height: 80px;
+    background-color: aquamarine;
+}
+
+/* container */
+
+.container1 {
+    max-width: 800px;
+}
+
+
+/* row */
+
+.row {
+    display: flex;
+}
+
+.debug .row {
+    padding: 20px 0;
+}
+
+.header-nav .row {
+    justify-content: space-between;
+}
+
+/* col */
+
+.row-cols-3 [class^="col"] {
+    flex-basis: calc(100%/5);
+}
+
+.debug .row-cols-3 [class^="col"] {
+    min-height: 40px;
+    background-color: orange;
+    border: 1px dashed black;
+    text-align: center;
+    line-height: 40px;
+}
+
+.row-cols-3 .col2 {
+    flex-basis: calc(100%*3/5)
+}
