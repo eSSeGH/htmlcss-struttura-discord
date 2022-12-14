@@ -20,6 +20,7 @@ img {
 .container1 {
     max-width: 800px;
 }
+
 .container2 {
     max-width: 600px;
 }
@@ -42,6 +43,11 @@ img {
     padding-top: 10px;
 }
 
+.subscribe .row {
+    margin-top: 20px;
+    background-color: aquamarine;
+    width: 100%;
+}
 
 /* col */
 
@@ -146,6 +152,27 @@ img {
 
 /* section links*/
 
-.debug .links {
+.debug .links,
+.debug .subscribe {
     background-color: black;
 }
+
+/* nav subscribe */
+
+.debug .subscribe {
+    border-top: 3px solid white;
+}
+
+.subscribe .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.row>button,
+.row>.logo {
+    background-color: lightcoral;
+    margin: 0;
+    border: 3px dashed black;
+}
+
