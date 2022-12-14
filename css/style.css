@@ -102,3 +102,9 @@ img {
     flex-direction: row-reverse;
 }
 
+/* section community */
+
+.debug .community {
+    background-color: white;
+}
+
