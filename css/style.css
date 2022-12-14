@@ -40,7 +40,8 @@ img {
 
 /* col */
 
-.row-cols-3 [class^="col"] {
+.row-cols-3 [class^="col"],
+.row-cols-2 [class^="col"] {
     flex-basis: calc(100%/5);
 }
 
@@ -56,6 +57,22 @@ img {
     flex-basis: calc(100%*3/5)
 }
 
+.debug .row-cols-2 [class^="col"] {
+    min-height: 350px;
+    border: 1px dashed black;
+}
+
+.row-cols-2 .col1 {
+    flex-basis: calc(100%*3/5);
+    background-color: lightseagreen;
+}
+
+.row-cols-2 .col2 {
+    flex-basis: calc(100%*2/5);
+    background-color: lightsalmon;
+}
+
+
 /* section page-desc */
 
 .debug .page-desc {
@@ -68,3 +85,11 @@ img {
     background-color:fuchsia;
     border: 1px dashed black;
 }
+
+/* section utility */
+
+.utility {
+    background-color: white;
+}
+
+
