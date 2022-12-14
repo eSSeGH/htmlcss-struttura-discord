@@ -88,8 +88,17 @@ img {
 
 /* section utility */
 
-.utility {
+.debug .utility {
     background-color: white;
 }
 
+/* section voice */
+
+.debug .voice {
+    background-color: lightgray;
+}
+
+.voice .row {
+    flex-direction: row-reverse;
+}
 
