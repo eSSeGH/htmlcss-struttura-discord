@@ -1,3 +1,4 @@
+/* reset rules */
 * {
     margin: 0 auto;
     padding: 0;
@@ -6,6 +7,89 @@
 
 img {
     max-width: 100%;
+}
+
+/* DEBUG RULES:
+remove class debug from body to disable */
+
+.debug .header-nav {
+    min-height: 80px;
+    background-color: aquamarine;
+}
+
+.debug .row {
+    padding: 20px 0;
+}
+
+.debug .row-cols-5 {
+    padding-top: 5px;
+}
+
+.debug .row-cols-3 [class^="col"] {
+    min-height: 40px;
+    background-color: orange; 
+    text-align: center;
+    line-height: 40px;
+}
+
+.debug .row-cols-2 [class^="col"] {
+    min-height: 350px;
+}
+
+.debug .row-cols-5 [class="col-a"] {
+    min-height: 300px;
+    background-color: hotpink;
+    flex-basis: calc(100%*2/6)
+}
+
+.debug .row-cols-5 [class="col-b"] {
+    min-height: 300px;
+    border: 3px dashed white;
+    background-color: aqua;
+    flex-basis: calc(100%*1/6)
+}
+
+.debug .page-desc {
+    background-color: blue;
+    padding: 20px 0;
+}
+
+.debug .page-desc-block {
+    min-height: 300px;
+    background-color:fuchsia;
+    border: 3px dashed black;
+}
+
+.debug .utility {
+    background-color: white;
+}
+
+.debug .voice {
+    background-color: lightgray;
+}
+
+.debug .community {
+    background-color: white;
+}
+
+.debug .technology {
+    background-color: gray;
+    padding: 20px 0;
+}
+
+.debug .technology-block {
+    min-height: 450px;
+    background-color:green;
+    border: 3px dashed black;
+}
+
+.debug .links,
+.debug .subscribe {
+    background-color: black;
+}
+
+.debug .subscribe {
+    border-top: 3px solid white;
 }
 
 /* all column and block borders */
@@ -20,10 +104,7 @@ img {
 
 /* header */
 
-.debug .header-nav {
-    min-height: 80px;
-    background-color: aquamarine;
-}
+
 
 /* container */
 
@@ -41,14 +122,6 @@ img {
     display: flex;
 }
 
-.debug .row {
-    padding: 20px 0;
-}
-
-.debug .row-cols-5 {
-    padding-top: 5px;
-}
-
 .subscribe .row {
     margin-top: 20px;
     background-color: aquamarine;
@@ -62,19 +135,8 @@ img {
     flex-basis: calc(100%/5);
 }
 
-.debug .row-cols-3 [class^="col"] {
-    min-height: 40px;
-    background-color: orange; 
-    text-align: center;
-    line-height: 40px;
-}
-
 .row-cols-3 .col2 {
     flex-basis: calc(100%*3/5)
-}
-
-.debug .row-cols-2 [class^="col"] {
-    min-height: 350px;
 }
 
 .row-cols-2 .col1 {
@@ -91,44 +153,14 @@ img {
     flex-basis: calc(100%/6);
 }
 
-.debug .row-cols-5 [class="col-a"] {
-    min-height: 300px;
-    background-color: hotpink;
-    flex-basis: calc(100%*2/6)
-}
-
-.debug .row-cols-5 [class="col-b"] {
-    min-height: 300px;
-    border: 3px dashed white;
-    background-color: aqua;
-    flex-basis: calc(100%*1/6)
-}
-
 
 /* section page-desc*/
 
-.debug .page-desc {
-    background-color: blue;
-    padding: 20px 0;
-}
-
-.debug .page-desc-block {
-    min-height: 300px;
-    background-color:fuchsia;
-    border: 3px dashed black;
-}
 
 /* section utility */
 
-.debug .utility {
-    background-color: white;
-}
 
 /* section voice */
-
-.debug .voice {
-    background-color: lightgray;
-}
 
 .voice .row {
     flex-direction: row-reverse;
@@ -136,35 +168,16 @@ img {
 
 /* section community */
 
-.debug .community {
-    background-color: white;
-}
 
 /* section technology */
 
-.debug .technology {
-    background-color: gray;
-    padding: 20px 0;
-}
-
-.debug .technology-block {
-    min-height: 450px;
-    background-color:green;
-    border: 3px dashed black;
-}
 
 /* section links*/
 
-.debug .links,
-.debug .subscribe {
-    background-color: black;
-}
 
 /* nav subscribe */
 
-.debug .subscribe {
-    border-top: 3px solid white;
-}
+
 
 .subscribe .row {
     display: flex;
