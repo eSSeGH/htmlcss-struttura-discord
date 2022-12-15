@@ -4,92 +4,46 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 1rem;
 }
 
 img {
     max-width: 100%;
 }
 
-/* section paddings */
+/* all section paddings */
 
 .pad {
     padding: 5vh 0; 
 }
 
-/* DEBUG RULES:
-remove class debug from body to disable */
+/* all titles */
 
-
-
-.debug .row-cols-5 {
-    padding-top: 5px;
+h1[class^="title"] {
+    font-size: 2rem;;
 }
 
-.debug .row-cols-3 [class^="col"] {
-    min-height: 40px;
-    background-color: orange; 
-    text-align: center;
-    line-height: 40px;
+.title-white {
+    display: inline-block;
+    color: white;
+    margin-bottom: 2rem;
 }
 
-.debug .row-cols-2 [class^="col"] {
-    min-height: 350px;
+.title-black {
+    color: black;
 }
 
-.debug .row-cols-5 [class="col-a"] {
-    min-height: 300px;
-    background-color: hotpink;
-    flex-basis: calc(100%*2/6)
+/* all text */
+
+.text-white {
+    display: inline-block;
+    color: white;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
 }
 
-.debug .row-cols-5 [class="col-b"] {
-    min-height: 300px;
-    border: 3px dashed white;
-    background-color: aqua;
-    flex-basis: calc(100%*1/6)
-}
-
-.debug .page-desc {
-    background-color: blue;
-    padding: 20px 0;
-}
-
-.debug .page-desc-block {
-    min-height: 300px;
-    background-color:fuchsia;
-    border: 3px dashed black;
-}
-
-.debug .utility {
-    background-color: white;
-}
-
-.debug .voice {
-    background-color: lightgray;
-}
-
-.debug .community {
-    background-color: white;
-}
-
-.debug .technology {
-    background-color: gray;
-    padding: 20px 0;
-}
-
-.debug .technology-block {
-    min-height: 450px;
-    background-color:green;
-    border: 3px dashed black;
-}
-
-.debug .links,
-.debug .subscribe {
-    background-color: black;
-}
-
-.debug .subscribe {
-    border-top: 3px solid white;
+.text-black {
+    color: black;
 }
 
 /* all column and block borders */
@@ -109,43 +63,6 @@ button {
     border-radius: 2rem;
     border: none;
 }
-
-/* header */
-
-header {
-    background-image: url(../img/jumbo.png);
-    height: 60vh;
-    background-size: 100vw;
-}
-
-.header-nav {
-    height: 15vh;
-    color: white;
-    text-align: center;
-}
-
-.header-nav .row {
-    align-items: center;
-}
-
-.header-nav .logo {
-    height: 8vh;
-}
-
-.col3>.login-button {
-    color: black;
-    background-color: #EEEEEE;
-    height: 2rem;
-}
-
-.header-nav .col2 {
-    line-height: 10vh;
-}
-
-.header-nav .text-link {
-    margin-right: 0.7rem;
-}
-    
 
 /* link */
 
@@ -206,9 +123,60 @@ header {
     flex-basis: calc(100%/6);
 }
 
+/* header */
+
+header {
+    background-image: url(../img/jumbo.png);
+    height: 75vh;
+    background-size: 100vw;
+}
+
+.header-nav {
+    height: 15vh;
+    color: white;
+    text-align: center;
+}
+
+.header-nav .row {
+    align-items: center;
+}
+
+.header-nav .logo {
+    height: 8vh;
+}
+
+.col3>.login-button {
+    color: black;
+    background-color: #EEEEEE;
+    height: 2rem;
+}
+
+.header-nav .col2 {
+    line-height: 10vh;
+}
+
+.header-nav .text-link {
+    margin-right: 0.7rem;
+} 
 
 /* section page-desc*/
 
+.page-desc {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.page-desc button {
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding: 0 1rem;
+    margin-right: 1rem;
+}
+
+.page-desc .open-to-browser { 
+    background-color: black;
+    color: white;
+}
 
 /* section utility */
 
