@@ -136,7 +136,7 @@ remove class debug from body to disable */
 }
 
 .row-cols-3 .col2 {
-    flex-basis: calc(100%*3/5)
+    flex-grow: 1;
 }
 
 .row-cols-2 .col1 {
@@ -176,8 +176,6 @@ remove class debug from body to disable */
 
 
 /* nav subscribe */
-
-
 
 .subscribe .row {
     display: flex;
