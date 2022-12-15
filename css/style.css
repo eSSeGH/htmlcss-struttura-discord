@@ -14,9 +14,9 @@ img {
     border: 3px dashed black;
 }
 
-/* .debug .div [class$="block"] {
+.debug [class$="block"] {
     border: 3px dashed black;
-} */
+}
 
 /* header */
 
