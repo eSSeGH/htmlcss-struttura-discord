@@ -33,6 +33,11 @@ h1[class^="title"] {
     color: black;
 }
 
+.small-title {
+    color: black;
+    font-size: 1.2rem;
+}
+
 /* all text */
 
 [class^="text"] {
@@ -47,16 +52,6 @@ h1[class^="title"] {
 
 .text-black {
     color: black;
-}
-
-/* all column and block borders */
-
-.debug .row [class^="col"] {
-    border: 3px dashed black;
-}
-
-.debug [class$="block"] {
-    border: 3px dashed black;
 }
 
 /* buttons */
@@ -193,6 +188,23 @@ header {
 
 .technology {
     text-align: center;
+}
+
+.small-title {
+    display: block;
+    width: 500px;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+.download-blue {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  margin-top: 5vh;
 }
 
 /* section community */
