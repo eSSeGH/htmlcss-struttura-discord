@@ -180,10 +180,11 @@ header {
     color: white;
 }
 
-/* section utility */
-
-
 /* section voice */
+
+.voice {
+    background-color: #EEEEEE;
+}
 
 .voice .row {
     flex-direction: row-reverse;
