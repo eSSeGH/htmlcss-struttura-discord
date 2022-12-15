@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 img {
@@ -12,24 +13,13 @@ img {
 /* section paddings */
 
 .pad {
-    padding: 20px 0; 
-}
-
-.pad2 {
-    padding: 20px o 20px;
+    padding: 5vh 0; 
 }
 
 /* DEBUG RULES:
 remove class debug from body to disable */
 
-.debug .header-nav {
-    min-height: 80px;
-    background-color: aquamarine;
-}
 
-.debug .row {
-    padding: 20px 0;
-}
 
 .debug .row-cols-5 {
     padding-top: 5px;
@@ -112,18 +102,71 @@ remove class debug from body to disable */
     border: 3px dashed black;
 }
 
+/* buttons */
+
+button {
+    padding: 0 0.8rem;
+    border-radius: 2rem;
+    border: none;
+}
+
 /* header */
 
+header {
+    background-image: url(../img/jumbo.png);
+    height: 60vh;
+    background-size: 100vw;
+}
 
+.header-nav {
+    height: 15vh;
+    color: white;
+    text-align: center;
+}
+
+.header-nav .row {
+    align-items: center;
+}
+
+.header-nav .logo {
+    height: 8vh;
+}
+
+.col3>.login-button {
+    color: black;
+    background-color: #EEEEEE;
+    height: 2rem;
+}
+
+.header-nav .col2 {
+    line-height: 10vh;
+}
+
+.header-nav .text-link {
+    margin-right: 0.7rem;
+}
+    
+
+/* link */
+
+.text-link {
+    text-decoration: none;
+    color: white;
+}
+
+.text-link:hover {
+    text-decoration-line: underline;
+}
+    
 
 /* container */
 
 .container1 {
-    max-width: 800px;
+    max-width: 80vw;
 }
 
 .container2 {
-    max-width: 600px;
+    max-width: 60vw;
 }
 
 /* row */
