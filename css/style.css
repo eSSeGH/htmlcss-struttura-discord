@@ -180,14 +180,19 @@ header {
     color: white;
 }
 
-/* section voice */
+/* sections: voice and technology*/
 
-.voice {
+.voice,
+.technology {
     background-color: #EEEEEE;
 }
 
 .voice .row {
     flex-direction: row-reverse;
+}
+
+.technology {
+    text-align: center;
 }
 
 /* section community */
