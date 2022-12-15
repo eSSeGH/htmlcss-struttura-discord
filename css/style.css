@@ -14,19 +14,19 @@ img {
 /* all section paddings */
 
 .pad {
-    padding: 5vh 0; 
+    padding: 15vh 0; 
 }
 
 /* all titles */
 
 h1[class^="title"] {
-    font-size: 2rem;;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .title-white {
-    display: inline-block;
     color: white;
-    margin-bottom: 2rem;
 }
 
 .title-black {
@@ -35,11 +35,14 @@ h1[class^="title"] {
 
 /* all text */
 
-.text-white {
+[class^="text"] {
     display: inline-block;
-    color: white;
     margin-bottom: 2rem;
     line-height: 1.5rem;
+}
+
+.text-white {
+    color: white;
 }
 
 .text-black {
@@ -90,6 +93,7 @@ button {
 
 .row {
     display: flex;
+    padding: 
 }
 
 .subscribe .row {
@@ -111,12 +115,10 @@ button {
 
 .row-cols-2 .col1 {
     flex-basis: calc(100%*3/5);
-    background-color: lightseagreen;
 }
 
 .row-cols-2 .col2 {
     flex-basis: calc(100%*2/5);
-    background-color: lightsalmon;
 }
 
 .row-cols-5 [class^="col"] {
@@ -163,7 +165,7 @@ header {
 
 .page-desc {
     text-align: center;
-    margin-top: 10vh;
+    padding-top: 0;
 }
 
 .page-desc button {
