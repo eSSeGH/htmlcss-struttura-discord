@@ -9,6 +9,16 @@ img {
     max-width: 100%;
 }
 
+/* section paddings */
+
+.pad {
+    padding: 20px 0; 
+}
+
+.pad2 {
+    padding: 20px o 20px;
+}
+
 /* DEBUG RULES:
 remove class debug from body to disable */
 
